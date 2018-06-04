@@ -1,0 +1,562 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+    <!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<script type="text/javascript" src="engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Areli Rojas Perez</title>
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"> </script>
+<script src="js/jquery.mobile-1.4.5.min.js"> </script>
+<script src="js/acciones.js" type="text/javascript"> </script>
+
+<script src="phonegap.js"> </script> <!--necesario*/-->
+
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/aguasucia.jpg','imagenes/primera_forma_normal.jpg','imagenes/2da_forma_normal.jpg','imagenes/tercera_forma_normal.jpg','imagenes/5_mayo.jpg','imagenes/ejemplos.jpg','imagenes/simulacion.jpg','imagenes/llave_primaria.jpg','imagenes/foranea.png','imagenes/sqli.png','imagenes/normalizacioo.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> App 10 </h1><h1> Proyecto Final</h1> <h2>BD Simples Y Avanzadas</h2>
+</div>
+
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+
+<li class ="ui-first-child ui-last-child">
+<a href="#pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Bases de Datos </h2>
+<p>SIMPLES Y AVANZADAS</p>
+</a>
+</li>
+<h1> Simples </h1>
+</li>
+       <li class="ui-first-child ui-last-child">
+    <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Modelo de datos</h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Llaves Foráneas</h2>
+    </a>
+ <li class="ui-first-child ui-last-child">
+    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Crear Tabla </h2>
+    </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Agregar Campos A Tablas</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Relaciones</h2>
+    </a>
+    </li>
+   
+      
+<h1> Avanzadas </h1>
+<li class="ui-first-child ui-last-child">
+    
+    <a href="#pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>  Integridad Referencial</h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Normalización</h2>
+    </a>
+    </li>
+         <li class="ui-first-child ui-last-child">
+    <a href="#pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> SQL</h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Claúsulas SQL</h2>
+    </a>
+    </li>
+</ul>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>DATOS DEL DESARROLLADOR</h1>
+<div>
+ <h2>Nombre De La Alumna:</h2><br><p align="justify">Areli Rojas Pérez </p><br>
+ <h2>Semestre:</h2><p align="justify">4° </p> <h2>Grupo: </h2> <p>"G"</p>
+ <h2>Submódulo:</h2><p align="justify">Desarrolla Aplicaciones Móviles</p>
+ <h2>Nombre Del Docente:</h2><p align="justify">Lic. José Antonio Gómez Hernández</p>
+  <br>
+</div>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="16%" >
+</div>
+<div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4> 
+</div>
+</div>
+</div>
+
+<!-- MAS -->
+<div data-role="page" id="pagina11" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> BASES DE DATOS</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Simples</h1>
+<div>
+<h2>¿Qué es una base de datos?</h2>
+<p align="justify">Es conjunto de  información sobre varias cosas, la cual es almacenada de  forma metódica con el propósito de ordenarla y guardarla para consultar información.</p> <img src="imagenes/bases_de_datos.jpg" width="69%" height="62%"><br>
+<a href="http://www.maestrosdelweb.com/que-son-las-bases-de-datos/" data-role="button"  target="_self"> Ver más información </a>
+
+<br>
+</div>
+<div> 
+
+<!--woow-->
+
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Avanzadas</h1>
+<div>
+ <h3> ¿Qué es? </h3>
+ <p align="justify">
+  Es una base de datos, pero tiene más cláusulas que ayudan al programador a tener un mejor manejo de las bases de datos. Las relaciones entre los datos son más complejos y las consultas pueden ser más precisas a la hora de querer obtener información de una base de datos. </p>
+<br><img src="imagenes/Base_De_Datos_Avanzadas.jpg" width="63%" height="46%"><br>
+<a href="https://www.lawebdelprogramador.com/cursos/Bases-de-Datos/8620-Introduccion-a-las-bases-de-datos.html" data-role="button" target="_self"> Ver Más Información </a>
+</div>
+<div>
+    
+</div>
+</div>
+
+
+<!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/bases_de_datos.jpg" alt="bases_de_datos" title="bases_de_datos" id="wows1_0"/></li>
+<li><img src="data1/images/access.png" alt="access" title="access" id="wows1_1"/></li>
+<li><img src="data1/images/foranea.png" alt="foranea" title="foranea" id="wows1_2"/></li>
+<li><img src="data1/images/llave_primaria.jpg" alt="llave_primaria" title="llave_primaria" id="wows1_3"/></li>
+<li><img src="data1/images/modelo_entidad_relacion.png" alt="modelo_entidad_relacion" title="modelo_entidad_relacion" id="wows1_4"/></li>
+<li><img src="data1/images/modelodedatos.jpg" alt="modelo-de-datos" title="modelo-de-datos" id="wows1_5"/></li>
+<li><img src="data1/images/algoritmo_recursivo.jpg" alt="algoritmo_recursivo" title="algoritmo_recursivo" id="wows1_6"/></li>
+<li><img src="data1/images/ejemplos.jpg" alt="ejemplos" title="ejemplos" id="wows1_7"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="bases_de_datos"><img src="data1/tooltips/bases_de_datos.jpg" alt="bases_de_datos"/>1</a>
+<a href="#" title="access"><img src="data1/tooltips/access.png" alt="access"/>2</a>
+<a href="#" title="foranea"><img src="data1/tooltips/foranea.png" alt="foranea"/>3</a>
+<a href="#" title="llave_primaria"><img src="data1/tooltips/llave_primaria.jpg" alt="llave_primaria"/>4</a>
+<a href="#" title="modelo_entidad_relacion"><img src="data1/tooltips/modelo_entidad_relacion.png" alt="modelo_entidad_relacion"/>5</a>
+<a href="#" title="modelo-de-datos"><img src="data1/tooltips/modelodedatos.jpg" alt="modelo-de-datos"/>6</a>
+<a href="#" title="algoritmo_recursivo"><img src="data1/tooltips/algoritmo_recursivo.jpg" alt="algoritmo_recursivo"/>7</a>
+<a href="#" title="ejemplos"><img src="data1/tooltips/ejemplos.jpg" alt="ejemplos"/>8</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slider Wordpress</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+    
+    
+    <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+<li><img src="data2/images/base_de_datos_avanzadas.jpg" alt="Base_De_Datos_Avanzadas" title="Base_De_Datos_Avanzadas" id="wows2_0"/></li>
+<li><img src="data2/images/sql.png" alt="sql" title="sql" id="wows2_1"/></li>
+<li><img src="data2/images/sqli.png" alt="sqli" title="sqli" id="wows2_2"/></li>
+<li><img src="data2/images/between.jpg" alt="between" title="between" id="wows2_3"/></li>
+<li><img src="data2/images/normalizacioo.jpg" alt="normalizacioo" title="normalizacioo" id="wows2_4"/></li>
+<li><img src="data2/images/reservadas.jpg" alt="reservadas" title="reservadas" id="wows2_5"/></li>
+<li><img src="data2/images/select.jpg" alt="select" title="select" id="wows2_6"/></li>
+<li><img src="data2/images/simulacion.jpg" alt="simulacion" title="simulacion" id="wows2_7"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="Base_De_Datos_Avanzadas"><img src="data2/tooltips/base_de_datos_avanzadas.jpg" alt="Base_De_Datos_Avanzadas"/>1</a>
+<a href="#" title="sql"><img src="data2/tooltips/sql.png" alt="sql"/>2</a>
+<a href="#" title="sqli"><img src="data2/tooltips/sqli.png" alt="sqli"/>3</a>
+<a href="#" title="between"><img src="data2/tooltips/between.jpg" alt="between"/>4</a>
+<a href="#" title="normalizacioo"><img src="data2/tooltips/normalizacioo.jpg" alt="normalizacioo"/>5</a>
+<a href="#" title="reservadas"><img src="data2/tooltips/reservadas.jpg" alt="reservadas"/>6</a>
+<a href="#" title="select"><img src="data2/tooltips/select.jpg" alt="select"/>7</a>
+<a href="#" title="simulacion"><img src="data2/tooltips/simulacion.jpg" alt="simulacion"/>8</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slider Wordpress</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+	<script type="text/javascript" src="engine2/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+
+<!-- WOOW -->
+
+  <br>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+
+
+ 
+ <!-- Informacion BD Simples -->
+
+
+
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>CREAR TABLAS</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿Cómo crear una tabla?</h2>
+
+
+<p align="justify"> 1. Haz clic en Crear  y después haz clic en Tabla.<br> <img src="imagenes/1.png" width="54%" height="39%"><br> <br>
+  2. Guarde e inserte un nombre a la tabla. <br>
+  <br> <img src="imagenes/tabla.png"width="60%" height="45%"><br> <br>
+  3. Haga clic en Aceptar.
+  <br> <img src="imagenes/tablax.png" width="60%" height="45%"><br></p>
+
+
+<div align="center">
+
+<a href="https://support.office.com/es-es/article/crear-una-tabla-8fdc65f9-8d40-4ff5-9212-80e6545e8d87" data-role="button"  target="_self"> Ver más información </a> <br>
+
+
+</div>
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina12" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>Agregar Campos A Tablas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿Cómo diseñar los campos?</h2>
+
+
+<p align="justify"> 1. Haz click con el botón derecho en la tabla que desee.<br> <br> <img src="imagenes/tablaa.png" width="47%" height="32%"><br><br>2.En el menú contextual, haga click en vista Diseño.<br><br> <img src="imagenes/tabla1.png" width="48%" height="33%"><br> <br>3. Nombra a los campos. <br><br> <img src="imagenes/tablaaa.png"width="49%" height="37%"><br> <br> 4. Establece el tipo de datos que quieras. <br><br> <img src="imagenes/tablaaax.png" width="49%" height="35%"><br> <br> 5. Guarda.<br><img src="imagenes/1x.png" width="49%" height="35%"></p>
+
+<div align="center">
+
+ <br>
+
+
+</div>
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+
+
+
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> MODELO DE DATOS </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿Qué es?</h2>
+<p align="justify">Conocido también como modelo de dominio el cual es la descripción de cómo se relacionan los conceptos en un problema. El modelo conceptual sirve para representar un problema de manera grafica a través de diagramas entidad relación </p><br> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/ejemplos.jpg',1)"><img src="imagenes/modelo-de-datos.jpg" width="60%" height="56%" id="Image31"></a><br>
+<h2> Modelo Entidad Relación</h2>
+<p align="justify"> Es una herramienta para el modelado de datos que permite representar las entidades relevantes de un sistema de información así como sus interrelaciones y propiedades. Esta concepción fue diseñada por Peter Chen. </p><br> <img src="imagenes/modelo_entidad_relacion.png"width="70%" height="47%"><br>
+<h2> Algoritmo recursivo </h2>
+<p align="justify"> Los algoritmos recursivos son los que expresan la solución de un problema en términos de llamadas a sí mismos, este tipo de llamadas se conocen como llamadas recursivas o recurrentes.</p>
+<img src="imagenes/algoritmo_recursivo.jpg" width="70%" height="47%"><br>
+<h2> Diferencia entre modelo y simulación </h2>
+<p align="justify">Un modelo es la abstracción de un sistema, construyendo únicamente lo que es de interés para la solución del problema por el cual fue creado. En cambio la simulación es la imitación de un sistema a través del tiempo con el objetivo de predecir y describir comportamientos. </p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32a','','imagenes/simulacion.jpg',1)"><img src="imagenes/Bases.jpg" width="82%" height="60%" id="Image32a"></a></div>
+
+
+<a href="https://www.elconspirador.com/2013/12/21/que-es-y-para-que-sirve-un-modelo-conceptual/" data-role="button"  target="_self"> Ver más información </a> <br>
+
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>RELACIONES</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Claves primarias </h2>
+<p align="justify">
+Una clave primaria es una clave candidata que ha sido diseñada para identificar de manera única a los registros de una tabla a través de toda la estructura de la base de datos.  </p> <br> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32b','','imagenes/llave_primaria.jpg',1)"><img src="imagenes/access.png" width="50%" height="51%" id="Image32b"></a><br>
+
+<a href="https://ingsystemas.webnode.es/bases-de-datos/llaves-primarias-y-foraneas/" data-role="button" target="_self"> Ver más información </a>
+
+
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> LLAVES FORÁNEAS</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿Qué es?</h2>
+<h2> Claves foráneas </h2>
+<p align="justify">
+Es una limitación referencial entre dos tablas. La clave foránea identifica una columna o grupo de columnas en una tabla (tabla hija o referendo) que se refiere a una columna o grupo de columnas en otra tabla (tabla maestra o referenciada).  </p> <br> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31a','','imagenes/foranea.png',1)"><img src="imagenes/llave-foranea-2.png" width="68%" height="61%" id="Image31a"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+ <!-- Informacion BD Avanzadas -->
+ 
+ <div data-role="page" id="pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> INTEGRIDAD REFERENCIAL</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿Qué es? </h2>
+<p align="justify">La integridad referencial es una propiedad de la base de datos. La misma significa que la clave externa de una tabla de referencia siempre debe aludir a una fila válida de la tabla a la que se haga referencia. La integridad referencial garantiza que la relación entre dos tablas permanezca sincronizada durante las operaciones de actualización y eliminación. </p>
+<p align="justify">Todas las bases de datos relacionales gozan de esta propiedad gracias a que el software gestor de base de datos vela por su cumplimiento. En cambio, las bases de datos jerárquicas requieren que los programadores se aseguren de mantener tal propiedad en sus programas. </p>
+<br><img src="imagenes/referencial.jpg" width="64%" height="49%"> <br>
+
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina8" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>  SQL</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿De qué trata?</h2>
+<p align="justify"><strong>SQL</strong> (por sus siglas en inglés <strong>Structured Query Language</strong>; en español <strong>lenguaje de consulta estructurada</strong>) es un lenguaje específico del dominio que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos. Una de sus características es el manejo del álgebra y el cálculo relacional que permiten efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como hacer cambios en ellas.</p><br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32c','','imagenes/sqli.png',1)"><img src="imagenes/sql.png" width="70%" height="53%" id="Image32c"></a>
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina9" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1 align="justify"> NORMALIZACIÓN DE BASES DE DATOS</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> ¿En Qué Consiste?</h2>
+<p align="justify"> La normalización es el proceso de organizar los datos de una base de datos. Se incluye la creación de tablas y el establecimiento de relaciones entre ellas según reglas diseñadas tanto para proteger los datos como para hacer que la base de datos sea más flexible al eliminar la redundancia y las dependencias incoherentes. 
+</p><br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32d','','imagenes/normalizacioo.jpg',1)"><img src="imagenes/normalizacion.png" width="62%" height="60%" id="Image32d"></a><br>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>1 (formas normales)</h1>
+<div align="left">
+  <p>Una tabla está en Primera Forma Normal si:</p>
+  <ul >
+    <li align="left">Todos los atributos son atómicos. Un atributo es atómico si los elementos del dominio son simples e indivisibles.</li>
+    <li>La tabla contiene una clave primaria única.</li>
+    <li>La clave primaria no contiene atributos nulos.</li>
+    <li>No debe existir variación en el número de columnas.</li>
+    <li>Los Campos no clave deben identificarse por la clave (Dependencia Funcional)</li>
+    <li>Debe Existir una independencia del orden tanto de las filas como de las columnas, es decir, si los datos cambian de orden no deben cambiar sus significados</li>
+  </ul>
+  <p align="justify">&nbsp;</p>
+  <br>
+  <img src="imagenes/nor1.jpg" width="85%" height="70%">
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>2 (formas normales)</h1>
+<div align="justify">
+  <p><strong>Dependencia Funcional.</strong> Una relación está en 2FN si está en 1FN y si los atributos que no forman parte de ninguna clave dependen de forma completa de la clave principal. Es decir que no existen dependencias parciales. (Todos los atributos que no son clave principal deben depender únicamente de la clave principal).</p>
+  <p>En otras palabras podríamos decir que la segunda forma normal está basada en el concepto de dependencia completamente funcional.</p>
+ 
+<img src="imagenes/nor2.jpg" width="85%" height="70%"> <br>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>3 (formas normales)</h1>
+<div>
+  <p>La tabla se encuentra en 3FN si es 2FN y si no existe ninguna dependencia funcional transitiva en los atributos que no son clave.  </p>
+  
+<img src="imagenes/nor3.jpg" width="85%" height="70%"></div>
+</div>
+</div>
+ </div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+<div data-role="page" id="pagina10" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1> CLÁUSULAS SQL </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>CLÁUSULAS</h2>
+<h4 align="left">CREATE: </h4><p align="justify">  Utilizado para crear nuevas tablas, campos e índices. </p>
+
+<h4 align="left">UPDATE: </h4> <p align="justify">Utilizado para modificar los valores de los campos y registros especificados </p>
+<h4 align="left">DELETE:</h4> <p align="justify">Utilizado para eliminar registros de una tabla de una base de datos. </p>
+<h4 align="left">WHERE: </h4><p align="justify">La mayoría de las bases de datos cuentan con tablas que contienen demasiadas filas para ser examinadas visualmente por el usuario. Para extraer solo aquellas filas que se desea, debe usar la cláusula WHERE</p>
+
+<h4 align="left"> SELECT:</h4><p align="justify"> Utilizado para consultar registros de la base de datos </p>
+<h4 align="left">INSERT:</h4> <p align="justify">Utilizado para cargar datos en la base de datos en una única operación. </p>
+<h4 align="left">DROP: </h4> <p align="justify">Empleado para eliminar tablas e índices </p>
+<h4 align="left">ALTER: </h4> <p align="justify">Utilizado para modificar las tablas agregando campos o cambiando la definición de los campos. </p>
+<img src="imagenes/select.jpg" width="39%" height="32%">
+<h2> PALABRAS RESERVADAS</h2>
+<H3> Between</H3>
+<p align="justify">Se utiliza para seleccionar filas de una tabla que cumplan una condición. </p>
+<img src="imagenes/between.jpg" width="60%" height="30%">
+<H3> ORDER BY</H3>
+<p align="justify">Se utiliza para organizar los datos resultantes de una consulta. </p>
+<H3> DISTING</H3>
+<p align="justify">Se utiliza cuando no se requiere tener filas duplicadas. </p>
+<br><img src="imagenes/reservadas.jpg" width="56%" height="40%"> <br>
+
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/bd.png" width="16%">
+</div>
+<h4> Aplicación 10</h4>
+<h4> Rojas Perez Areli</h4>
+</div>
+</div>
+
+</body>
+</html>
+
